@@ -29,6 +29,9 @@ function doSomethingCool() {
 
 // Put your answer below -------------------------
 
+var finger = function() {
+  console.log("Somthng Cool!");
+}
 
 // -----------------------------------------------
 
@@ -48,8 +51,10 @@ function sayHi() {
 setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
-
-
+var sayHi = function() {
+  alert("Hello, World!");
+}
+setTimeout(delay, 2000);
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -79,7 +84,7 @@ console.log("The letter is", letter);
 
 // Put your answer below -------------------------
 
-
+c. because the 1 is a 1 second delay on the letter y so z runs first.  totaly guessing.
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -102,6 +107,8 @@ var reverseStr = function(str) {
 // Put your answer below -------------------------
 
 
+
+}
 // -----------------------------------------------
 
 //////////////////////////////////////////////////

@@ -7,15 +7,17 @@
  */
 
 var sum = function(a, b) {
-    "use strict";
+    return a + b;
     /// return ...
 }
 
-var sum = function(a, b){
 
-    return a + b;
-}
+
 console.log(sum(8, 11));
+
+
+
+}
 
 /**
  * PART 2
@@ -23,7 +25,7 @@ console.log(sum(8, 11));
  * Write a JavaScript program that calculates the average time for this marathoner to complete the full marathon (26.2mi)
  */
 
-var matt = {
+var natt = {
     finishingTime1: 240, //in minutes
     finishingTime2: 210.4,
     finishingTime3: 235.1,
@@ -32,7 +34,7 @@ var matt = {
     finishingTime6: 227.4
 };
 
-var mark = {
+var nark = {
     finishingTime1: 120, //in minutes
     finishingTime2: 110.4,
     finishingTime3: 135.1,
@@ -43,6 +45,9 @@ var mark = {
 var getAverageTime = function(person) {
     "use strict";
     // ... return ...
+
+    //get a value from a key e.g., mark.finishingTime6
+    //get the length of the object, and get all keys
 }
 
 console.log(getAverageTime(matt));
@@ -81,6 +86,7 @@ function addToBank(account, savings, retirement, checking) {
 
 function getSumOfAccounts(account) {
     "use strict";
+  return  account.savings + account.retirement + account.checking;
     // return ...
 }
 
