@@ -25,7 +25,7 @@ console.log(sum(8, 11));
  * Write a JavaScript program that calculates the average time for this marathoner to complete the full marathon (26.2mi)
  */
 
-var natt = {
+var matt = {
     finishingTime1: 240, //in minutes
     finishingTime2: 210.4,
     finishingTime3: 235.1,
@@ -34,7 +34,7 @@ var natt = {
     finishingTime6: 227.4
 };
 
-var nark = {
+var mark = {
     finishingTime1: 120, //in minutes
     finishingTime2: 110.4,
     finishingTime3: 135.1,
@@ -45,10 +45,20 @@ var nark = {
 var getAverageTime = function(person) {
     "use strict";
     // ... return ...
+    //var sum = 0;
+    //var lengthOfObjects=0;
+    //for (var key in person){
+      //sum = sum + person[key];
+  //  }
+    //return sum / Object.keys(person).length
+
+//} avg= avg/inc;
+//return avg;
 
     //get a value from a key e.g., mark.finishingTime6
     //get the length of the object, and get all keys
-}
+//}
+object.keys(matt);
 
 console.log(getAverageTime(matt));
 console.log(getAverageTime(mark));
@@ -86,7 +96,13 @@ function addToBank(account, savings, retirement, checking) {
 
 function getSumOfAccounts(account) {
     "use strict";
-  return  account.savings + account.retirement + account.checking;
+    var cash= 0;
+    for(var i in account[i]){
+      cash += account;
+    }
+    return cash;
+
+//  return  account.savings + account.retirement + account.checking;
     // return ...
 }
 

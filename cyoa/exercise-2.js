@@ -23,7 +23,7 @@
 // to a variable containing an anonymous
 // function
 
-function doSomethingCool() {
+function doSomethingCool(a, b) {
   console.log("Something Cool!");
 }
 
@@ -51,10 +51,10 @@ function sayHi() {
 setTimeout(sayHi, 2000);
 
 // Put your answer below -------------------------
-var sayHi = function() {
+var hello = function() {
   alert("Hello, World!");
 }
-setTimeout(delay, 2000);
+setTimeout(hello, 2000);
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -105,7 +105,7 @@ var reverseStr = function(str) {
 };
 
 // Put your answer below -------------------------
-
+var arr = str.split(""); arr.reverse(); str = arr.join("");
 
 
 }
@@ -141,8 +141,17 @@ var spanishColor = function(colorName) {
 };
 
 // Put your answer below -------------------------
-
-
+var allcolors = {
+  "rojo": "#ff0000",
+  "blanco": "#ffffff",
+  "azul": "#0000ff",
+  "verde": "#00ff00",
+  "negro": "#000000",
+}
+var spanishColor =  function (colorName){
+  console.log (allcolors[colorName]);
+}
+spanishColor("rojo");
 // -----------------------------------------------
 
 //////////////////////////////////////////////////
@@ -159,6 +168,13 @@ var foo = "bar";
 
 // Put your answer below -------------------------
 
+var foo
+foo = "bar"
+
+}
+//
+
+}
 
 // -----------------------------------------------
 
